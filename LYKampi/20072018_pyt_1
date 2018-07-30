@@ -1,0 +1,69 @@
+twitter sonrakiyazilimci
+
+ubuntu uis: gnome 2x
+	    gnome 3x
+	    mate
+	    KDE ( iOs ish)
+	    xfce ( basic/low )
+	    openbox
+	    unity (general)(high rom usage)
+	    
+cmd promptdan bunları indirip kullanabiliriz googlela
+
+
+mkdir <<<<< klasör açma
+l ve ls <<< klasörleri browseluyor
+
+
+kelimeleri tamamen yazmaktansa tab kullanmaya özen gösterilmeli.
+
+pwd <<<< hangi dizinde olduğumu gösteriyor
+	    
+git init
+git commit
+git status
+git push
+git pull
+git add
+
+
+remove(degisken)<<< gördüğü ilk değişkeni siler
+pop(index)<<<< indexteki degiskeni alıyor
+append(degisken)<<< sona ekliyor---------listenin içine diğer listedeki elemanları değil direk listeyi ekliyor
+insert(index, degisken)<<< ekliyor
+extend(degisken)<<<<< degiskeni sonuna uzatıyor---listenin içine diğer listenin elemanlarını ekleyerek uzatıyor
+replace(degisken,degisken) ilki yerine ikincisini koyuyor ---sadece stringde---
+get(degisken,"yapamadıysa cıkacak mesaj")
+enumerate(liste,1)<<<<<<< sıralı bir liste
+
+
+
+veri yapısı olarak set=küme, içinde birden fazla aynı eleman varsa bir tane yazıyor dolayısıyla bir dizi de vs print(set(dizi)) yaparak tekrarsız halini görebiliriz
+
+
+defineladığımız bir funct da yazmaya gerek olmayan gözükmeyen bir return None vardır.eğer bir şey döndürmüyorsa None döndürür
+
+
+dosyalara isim verirken iki standart var snake case ve camel case
+
+snake case= adgnspdıg_sdgnsdı_dsg.txt
+camel case= aaaaBbbbCccc.py
+
+if __name__=='__main__': yapısının kullanılmasının amacı başka dosyalarda bu dosyadaki fonksiyonları vb çağırırken bu dosyadaki maini çalıştırmaya gerek duymamak
+
+degisken=lambda degisken,degisken:islem<<<<< solda argümanlarını sağdaki işlemi yaptırıp degiskene atıyor
+
+return'de virgülle ikinci seyi döndüreceksek ikisini tuple seklinde döndürüyor
+
+
+json yapıları
+
+load loads
+dump dumps
+
+
+s siz olanlar dosyadan s li olanlar stringden işlem yapar
+
+
+
+
