@@ -1,4 +1,4 @@
-gimport json, os, uuid
+import json, os, uuid
 
 
 class Kisi:
