@@ -19,21 +19,20 @@ class Islevler:
                 json.dump({}, f)
 
     def ekle(self, user):
-        r=requests.post("https://reqres.in/api/users",data={"name":user.name,
-                                                            "surname":user.surname})
-        # with open("data.json") as r:
-        #     data = json.load(r)
-        #
-        # data.update({
-        #     str(uuid.uuid1()): {
-        #         "numara": user.numara,
-        #         "isim": user.isim,
-        #         "soyisim": user.soyisim
-        #     }
-        # })
-        #
-        # with open("data.json", "w") as w:
-        #     json.dump(data, w)
+
+        with open("data.json") as r:
+            data = json.load(r)
+
+        data.update({
+            str(uuid.uuid1()): {
+                "numara": user.numara,
+                "isim": user.isim,
+                "soyisim": user.soyisim
+            }
+        })
+
+        with open("data.json", "w") as w:
+            json.dump(data, w)
 
     def sil(self):
         pass
