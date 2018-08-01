@@ -25,9 +25,15 @@ class Methods:
     def goruntule(self):
 
         resp=requests.get(f"{self.path}?page=2")
-
+        data=resp.json()
         pprint(resp)
-        pprint(resp.json())
+
+        for serhat in data["data"]:
+            for key, value in serhat.items():
+                print(key,value)
+
+
+
 
     def silme(self):
 
@@ -40,3 +46,21 @@ class Methods:
                                                "surname": user.surname})
         pprint(resp4)
         pprint(resp4.json())
+
+
+# {'data': [{'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg',
+#            'first_name': 'Eve',
+#            'id': 4,
+#            'last_name': 'Holt'},
+#           {'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg',
+#            'first_name': 'Charles',
+#            'id': 5,
+#            'last_name': 'Morris'},
+#           {'avatar': 'https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg',
+#            'first_name': 'Tracey',
+#            'id': 6,
+#            'last_name': 'Ramos'}],
+#  'page': 2,
+#  'per_page': 3,
+#  'total': 12,
+#  'total_pages': 4}

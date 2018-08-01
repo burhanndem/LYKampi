@@ -1,27 +1,27 @@
 import requests
-from reqres import Kisi, Methods
+from reqres_2 import Kisi, Methods
 
 
 class Console:
 
     def __init__(self):
-        self.choice =""
-        self.choices_list = ["1", "2", "3", "4"]
+        self.choice = ""
 
     def menu(self):
+        choices_list = ["1", "2", "3", "4"]
         print("Menüye hoşgeldiniz!")
         while True:
             print("""
             İşlemler
-            
-            1.ekle
-            2.görüntüle
-            3.sil
-            4.güncelle""")
+
+            1.Ekle
+            2.Görüntüle
+            3.Sil
+            4.Güncelle\n""")
             self.choice = input("Seçiminiz: ")
-            if self.choice in self.choices_list:
+            if self.choice in choices_list:
                 break
-            print("yanlış bir seçim nuamrası girdiniz")
+            print("Yanlış bir seçim numarası girdiniz!!!")
 
     def secim(self):
         usser = Methods()
@@ -34,11 +34,9 @@ class Console:
         elif self.choice == "4":
             usser.guncelle(self.get_user())
 
-
     def run(self):
         self.menu()
         self.secim()
-
 
     @staticmethod
     def get_user():
@@ -49,5 +47,5 @@ class Console:
 
 
 if __name__ == '__main__':
-    c=Console()
+    c = Console()
     c.run()
