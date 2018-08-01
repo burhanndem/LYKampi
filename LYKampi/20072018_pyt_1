@@ -65,5 +65,19 @@ dump dumps
 s siz olanlar dosyadan s li olanlar stringden işlem yapar
 
 
+gökhan şengün browserlar htmli nasıl parse eder
+
+Protokoller çok onemli
+
+get güvensiz post güvenli yoldur çünkü eğer sistemde ssl varsa paketin sadece body kısmını şifreler ve dolayısıyla proxyden geçen paketten body kısmı okunamaz
+ama get ile gönderirsek header kısmında gözükeceği için görünebilir.
+
+-------------------------------------------------------
+
+araştırılacak keywordler
+
+dom,cdn,iss,api,ftp,xampp,nginx,beautiful soup,
 
 
+--------------------------------------------------------
+codewars
