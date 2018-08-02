@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4daf9b76-88b6-4b21-8913-2ad09433f6af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/d3107-H/hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/d3107-H/hw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20072018_pyt_1" beforeDir="false" afterPath="$PROJECT_DIR$/20072018_pyt_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d0108/reqres.py" beforeDir="false" afterPath="$PROJECT_DIR$/d0108/reqres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d0108/reqres_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/d0108/reqres_console.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,56 +48,77 @@
     <session id="2125198351">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="20072018_pyt_1" value="1" />
+          <entry key="20072018_pyt_1" value="2" />
           <entry key="gitignore" value="2" />
           <entry key="json" value="1" />
-          <entry key="py" value="22" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="22" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="20072018_pyt_1" value="585" />
+          <entry key="20072018_pyt_1" value="613" />
           <entry key="dummy" value="18" />
-          <entry key="py" value="2306" />
+          <entry key="py" value="2593" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="603" />
-          <entry key="Python" value="2306" />
+          <entry key="PLAIN_TEXT" value="631" />
+          <entry key="Python" value="2593" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/d3107-H/hw.py">
+        <entry file="file://$PROJECT_DIR$/d0108/reqres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
-                <marker date="1533141295244" expanded="true" signature="416:417" ph="..." />
-                <marker date="1533141295244" expanded="true" signature="416:426" ph="..." />
-                <marker date="1533141295244" expanded="true" signature="416:761" ph="..." />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d0108/reqres_console.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20072018_pyt_1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -123,20 +147,20 @@
         <option value="$PROJECT_DIR$/d3007/database.json" />
         <option value="$PROJECT_DIR$/d3007/crud.py" />
         <option value="$PROJECT_DIR$/d0108/g_s_H.py" />
-        <option value="$PROJECT_DIR$/20072018_pyt_1" />
         <option value="$PROJECT_DIR$/d0108/requests.py" />
-        <option value="$PROJECT_DIR$/d0108/reqres_console.py" />
-        <option value="$PROJECT_DIR$/d0108/reqres.py" />
         <option value="$PROJECT_DIR$/d0108/reqres_console2.py" />
         <option value="$PROJECT_DIR$/d0108/reqres_2.py" />
         <option value="$PROJECT_DIR$/d0108/url_req.py" />
         <option value="$PROJECT_DIR$/d3107-H/hw.py" />
+        <option value="$PROJECT_DIR$/d0108/reqres_console.py" />
+        <option value="$PROJECT_DIR$/20072018_pyt_1" />
+        <option value="$PROJECT_DIR$/d0108/reqres.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="27" />
+    <option name="x" value="106" />
+    <option name="y" value="63" />
     <option name="width" value="1516" />
     <option name="height" value="991" />
   </component>
@@ -148,17 +172,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="LYKampi" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYKampi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYKampi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYKampi" type="462c0819:PsiDirectoryNode" />
-              <item name="d0108" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LYKampi" type="b2602c69:ProjectViewProjectNode" />
@@ -174,7 +194,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reqres_console2">
+  <component name="RunManager" selected="Python.reqres_console">
     <configuration name="console" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="buson" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,8 +354,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.reqres_console2" />
         <item itemvalue="Python.reqres_console" />
+        <item itemvalue="Python.reqres_console2" />
         <item itemvalue="Python.reqres_2" />
         <item itemvalue="Python.reqres" />
         <item itemvalue="Python.console" />
@@ -357,7 +376,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="27" width="1516" height="991" extended-state="0" />
+    <frame x="106" y="63" width="1516" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949832" />
@@ -365,13 +384,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33103448" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33103448" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39885056" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32988507" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -411,13 +430,6 @@
     <entry file="file://$PROJECT_DIR$/d2607/distance.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/20072018_pyt_1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/d3007/crud.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -429,9 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,64 +458,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/d0108/reqres_2.py">
+    <entry file="file://$PROJECT_DIR$/d0108/reqres_2.py" />
+    <entry file="file://$PROJECT_DIR$/d0108/reqres_console2.py" />
+    <entry file="file://$PROJECT_DIR$/d0108/url_req.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d3107-H/hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20072018_pyt_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0108/reqres_console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/d0108/reqres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d0108/reqres_console.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d0108/reqres_console2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d0108/url_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d3107-H/hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <marker date="1533141295244" expanded="true" signature="416:417" ph="..." />
-            <marker date="1533141295244" expanded="true" signature="416:426" ph="..." />
-            <marker date="1533141295244" expanded="true" signature="416:761" ph="..." />
           </folding>
         </state>
       </provider>

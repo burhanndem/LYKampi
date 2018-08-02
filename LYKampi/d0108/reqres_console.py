@@ -1,5 +1,5 @@
 import requests
-from reqres_2 import Kisi, Methods
+from reqres import Kisi, Methods
 
 
 class Console:
