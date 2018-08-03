@@ -8,7 +8,7 @@ class Console:
         self.choice = ""
 
     def menu(self):
-        choices_list = ["1", "2", "3", "4"]
+        choices_list = ["1", "2", "3", "4","5"]
         print("Menüye hoşgeldiniz!")
         while True:
             print("""
@@ -17,7 +17,8 @@ class Console:
             1.Ekle
             2.Görüntüle
             3.Sil
-            4.Güncelle\n""")
+            4.Güncelle
+            5.List all\n""")
             self.choice = input("Seçiminiz: ")
             if self.choice in choices_list:
                 break
@@ -33,6 +34,8 @@ class Console:
             usser.silme()
         elif self.choice == "4":
             usser.guncelle(self.get_user())
+        elif self.choice == "5":
+            usser.listele()
 
     def run(self):
         self.menu()

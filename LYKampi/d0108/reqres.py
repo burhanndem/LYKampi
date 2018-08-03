@@ -17,12 +17,12 @@ class Methods:
 
     def ekle(self, user):
 
-        resp2 = requests.post(self.path, data={"name": user.name,
+        resp = requests.post(self.path, data={"name": user.name,
                                                "surname": user.surname})
 
-        if resp2.status_code == HTTPStatus.CREATED:
-            pprint(resp2)
-            pprint(resp2.json())
+        if resp.status_code == HTTPStatus.CREATED:
+            pprint(resp)
+            pprint(resp.json())
         return {"hata":"hata mesaji"}
 
     def goruntule(self):
@@ -39,15 +39,33 @@ class Methods:
 
     def silme(self):
 
-        resp3 = requests.delete(f"{self.path}/2")
-        if resp3.status_code == HTTPStatus.NO_CONTENT:
-            pprint(resp3)
+        resp = requests.delete(f"{self.path}/2")
+        if resp.status_code == HTTPStatus.NO_CONTENT:
+            pprint(resp)
             return "basarili"
         return json.dumps({"hata": "istek hatali"})
 
     def guncelle(self, user):
-        resp4 = requests.put(f"{self.path}/2", data={"name": user.name,
+        resp = requests.put(f"{self.path}/2", data={"name": user.name,
                                                      "surname": user.surname})
-        pprint(resp4)
-        pprint(resp4.json())
+        pprint(resp)
+        pprint(resp.json())
+
+    def listele(self):
+        resp=requests.get(self.path,params={"page":"1"})
+        olcek=resp.json().get("total_pages")
+
+        liste = []
+        for k in range(2,olcek,1):
+            resp=requests.get(self.path,params={"page":k})
+            resp.json().get("data")
+            liste.append(resp.json().get("data"))
+
+        pprint(liste)
+
+
+
+
+
+
 
